@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+:root { --ink: #252c26; --green: #356b53; --coral: #d77b68; --muted: #858b82; --line: #e9ebe5; --paper: #f7f8f4; --body: 'DM Sans', sans-serif; --display: 'DM Serif Display', Georgia, serif; font-family: var(--body); color: var(--ink); background: var(--paper); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid #6e9b7c; outline-offset: 2px; }
+::selection { background: #dbe8db; color: var(--ink); }
